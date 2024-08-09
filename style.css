@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0 210px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 10px;
+}
+#logo {
+  width: 140px;
+}
+
+.box-middle span {
+  padding: 5px 20px;
+  font-size: 1rem;
+  color: #2c2e2f;
+  font-weight: 550;
+}
+#login-btn {
+  font-size: 0.75rem;
+  font-weight: 550;
+  text-decoration: none;
+  color: blue;
+  padding: 13px 23px;
+  border: 0.5px solid blue;
+  border-radius: 19px;
+}
+#signin-btn {
+  font-size: 0.75rem;
+  font-weight: 550;
+  text-decoration: none;
+  color: white;
+  background-color: #0070ba;
+  padding: 13px 23px;
+  border: none;
+  border-radius: 19px;
+  margin-right: 17px;
+  margin-left: 4px;
+}
+/* main section */
+/* video section */
+.video {
+  position: relative;
+  height: 560px; /* Set height to 500px */
+  width: 100%; /* Full width */
+  overflow: hidden;
+}
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: fit-content;
+  transform: translate(-50%, -50%);
+}
+.content-video {
+  position: absolute;
+  top: 50;
+  left: 0;
+  right: 0;
+  bottom: 350;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  padding: 20px;
+}
+#vdo-heading {
+  padding-top: 10px;
+  font-size: 2.3rem;
+  margin: 40px 300px;
+}
+#vdo-btn {
+  color: rgb(2, 2, 147);
+  background-color: white;
+  font-weight: 550;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 12px 40px;
+}
+
+/* paypal for business */
+.paypal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #02387b;
+}
+.paypal .div {
+  padding: 30px 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.paypal .div h1 {
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+#paypal-btn {
+  color: rgb(2, 2, 147);
+  background-color: white;
+  font-size: 0.9rem;
+  font-weight: 570;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 28px;
+}
+/* world is your shoping mall */
+.world {
+  padding: 30px 270px;
+  background-color: #f5f7fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 15px;
+}
+.world-left {
+  padding: 10px;
+}
+.world-left h1 {
+  font-size: 2.7rem;
+  color: #00a8ea;
+  font-weight: 600;
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
+.world-left p {
+  font-size: 1.1rem;
+  color: #2c2e2f;
+  font-weight: 450;
+  padding-bottom: 26px;
+}
+#shop-btn {
+  color: #00a8ea;
+  background-color: white;
+  font-size: 1rem;
+  font-weight: 570;
+  border: 0.4px solid #00a8ea;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 14px 90px;
+}
+.world-right {
+  padding: 10px;
+}
+#earthimg {
+  height: 350px;
+}
+
+/* payit section just small changes its apply almost world sections css */
+
+.payit {
+  padding: 30px 270px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+
+/* same as world samll changes */
+.payitsafe {
+  padding: 30px 270px;
+  background-color: #f5f7fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 15px;
+}
+#limit {
+  text-decoration: none;
+  color: #00a8ea;
+  padding-bottom: 10px;
+}
+
+/* soial section css */
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.social-left-div h1 {
+  color: #00a8ea;
+  font-weight: 540;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+  padding: 20px 0;
+}
+.social-right-div {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  column-gap: 10px;
+  padding-bottom: 20px;
+}
+.social-right-div img {
+  width: 88px;
+  height: 60px;
+  padding: 5px;
+}
+/* timer section */
+.timer{
+    background-color:#00a8ea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.timer h1{
+    padding: 45px 300px;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif; 
+    color: white;
+    font-weight: 550;
+    align-self: center;
+     
+}
+.seconds{
+    padding: 70px ;
+}
+.seconds span{
+    color: #00a8ea;
+    font-size: 2.5rem;
+    font-weight: 600;
+    background-color: #f5f7fa;
+    padding: 15px 23px;
+    border-radius: 18px;
+    margin: 4px;
+}
+#now-btn{
+    color:rgb(42, 42, 150);
+  background-color: white;
+  font-size: 1rem;
+  font-weight: 570;
+  border: 0.4px solid #00a8ea;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 14px 90px;
+
+}
+/* footer css */
+footer{
+    padding: 10px 200px;
+}
+.footer1{
+    padding-top: 20px;
+    border-bottom: 0.3px solid gray;
+    padding-bottom: 7PX;
+
+}
+.footer1 p{
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+.footer1-div{
+    
+    padding-top: 60px;
+
+}
+.footer1-div a{
+    font-size: 1rem;
+    color: #2c2e2f;
+    font-weight: 550;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-bottom: 5px;
+
+}
+.footer2-div{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.div1 a{
+    font-size: 1rem;
+    color: #4f5152;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 7px;
+
+}
+.div2 a{
+    font-size: 1rem;
+    color: #4f5152;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 7px;
+
+}
+
+.footer2-div2 h5{
+    color: #747474;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer2-div2 p{
+    font-size: 0.9rem;
+    color: #747474;
+    padding-bottom: 70px;
+    font-weight: 400;
+    
+}
+.footer-link{
+    color: #00a8ea;
+}
+.footer-link:hover{
+    cursor: pointer;
+}
